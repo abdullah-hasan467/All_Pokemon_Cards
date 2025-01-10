@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Footer } from "./assets/Footer";
 import { PokemonCards } from "./assets/PokemonCards";
 import "./index.css";
 
@@ -87,6 +88,7 @@ export const Pokemon = () => {
           </ul>
         </div>
       </section>
+     <Footer />
     </>
   );
 };
